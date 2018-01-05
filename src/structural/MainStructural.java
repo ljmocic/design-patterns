@@ -1,5 +1,6 @@
 package structural;
 
+import structural.adapter.MainAdapter;
 import structural.decorator.MainDecorator;
 import structural.facade.MainFacade;
 
@@ -11,6 +12,9 @@ public class MainStructural {
 
         System.out.println("\nRunning Facade example: ");
         MainFacade.main(null);
+
+        System.out.println("\nRunning Adapter example: ");
+        MainAdapter.main(null);
     }
 
 }
