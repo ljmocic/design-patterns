@@ -1,5 +1,7 @@
 package behavioral;
 
+import behavioral.chainofresponsibility.MainChain;
+import behavioral.command.MainCommand;
 import behavioral.observer.MainObserver;
 
 public class MainBehavioral {
@@ -8,6 +10,12 @@ public class MainBehavioral {
 
         System.out.println("\nRunning Observer example: ");
         MainObserver.main(null);
+
+        System.out.println("\nRunning Command example: ");
+        MainCommand.main(null);
+
+        System.out.println("\nRunning Chain of responsibility example: ");
+        MainChain.main(null);
 
     }
 
