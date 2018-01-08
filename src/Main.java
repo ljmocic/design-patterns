@@ -2,6 +2,9 @@ import behavioral.MainBehavioral;
 import creational.MainCreational;
 import structural.MainStructural;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,4 +12,5 @@ public class Main {
         MainCreational.main(null);
         MainStructural.main(null);
     }
+
 }
