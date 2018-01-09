@@ -20,5 +20,5 @@ public class MainStructural {
         System.out.println("\nRunning Bridge example: ");
         MainBridge.main(null);
     }
-
+    
 }
