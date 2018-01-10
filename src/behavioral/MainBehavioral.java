@@ -17,6 +17,9 @@ public class MainBehavioral {
         System.out.println("\nRunning Chain of responsibility example: ");
         MainChain.main(null);
 
+        System.out.println("\nRunning Iterator example: ");
+        MainChain.main(null);
+
     }
 
 }
