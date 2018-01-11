@@ -2,6 +2,7 @@ package structural;
 
 import structural.adapter.MainAdapter;
 import structural.bridge.MainBridge;
+import structural.composite.MainComposite;
 import structural.decorator.MainDecorator;
 import structural.facade.MainFacade;
 
@@ -19,6 +20,9 @@ public class MainStructural {
 
         System.out.println("\nRunning Bridge example: ");
         MainBridge.main(null);
+
+        System.out.println("\nRunning Composite example: ");
+        MainComposite.main(null);
     }
     
 }
