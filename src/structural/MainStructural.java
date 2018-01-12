@@ -5,6 +5,7 @@ import structural.bridge.MainBridge;
 import structural.composite.MainComposite;
 import structural.decorator.MainDecorator;
 import structural.facade.MainFacade;
+import structural.flyweight.MainFlyweight;
 
 public class MainStructural {
 
@@ -23,6 +24,9 @@ public class MainStructural {
 
         System.out.println("\nRunning Composite example: ");
         MainComposite.main(null);
+
+        System.out.println("\nRunning Flyweight example: ");
+        MainFlyweight.main(null);
     }
-    
+
 }
