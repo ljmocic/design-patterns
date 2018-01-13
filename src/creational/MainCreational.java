@@ -3,6 +3,7 @@ package creational;
 import creational.abstractfactory.MainAbstractFactory;
 import creational.builder.MainBuilder;
 import creational.factory.MainFactory;
+import creational.objectpool.MainObjectPool;
 import creational.prototype.MainPrototype;
 import creational.singleton.MainSingleton;
 
@@ -23,5 +24,8 @@ public class MainCreational {
 
         System.out.println("\nRunning Singleton example: ");
         MainSingleton.main(null);
+
+        System.out.println("\nRunning Object Pool example: ");
+        MainObjectPool.main(null);
     }
 }
