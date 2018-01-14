@@ -3,6 +3,7 @@ package behavioral;
 import behavioral.chainofresponsibility.MainChain;
 import behavioral.command.MainCommand;
 import behavioral.observer.MainObserver;
+import behavioral.templatemethod.MainTemplateMethod;
 
 public class MainBehavioral {
 
@@ -19,6 +20,9 @@ public class MainBehavioral {
 
         System.out.println("\nRunning Iterator example: ");
         MainChain.main(null);
+
+        System.out.println("\nRunning Template Method example: ");
+        MainTemplateMethod.main(null);
 
     }
 
