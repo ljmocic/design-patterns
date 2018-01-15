@@ -3,6 +3,7 @@ package behavioral;
 import behavioral.chainofresponsibility.MainChain;
 import behavioral.command.MainCommand;
 import behavioral.observer.MainObserver;
+import behavioral.strategy.MainStrategy;
 import behavioral.templatemethod.MainTemplateMethod;
 
 public class MainBehavioral {
@@ -23,6 +24,9 @@ public class MainBehavioral {
 
         System.out.println("\nRunning Template Method example: ");
         MainTemplateMethod.main(null);
+
+        System.out.println("\nRunning Strategy example: ");
+        MainStrategy.main(null);
 
     }
 
