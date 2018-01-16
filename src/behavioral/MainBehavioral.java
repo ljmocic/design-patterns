@@ -2,6 +2,7 @@ package behavioral;
 
 import behavioral.chainofresponsibility.MainChain;
 import behavioral.command.MainCommand;
+import behavioral.memento.MainMemento;
 import behavioral.observer.MainObserver;
 import behavioral.strategy.MainStrategy;
 import behavioral.templatemethod.MainTemplateMethod;
@@ -27,6 +28,9 @@ public class MainBehavioral {
 
         System.out.println("\nRunning Strategy example: ");
         MainStrategy.main(null);
+
+        System.out.println("\nRunning Memento example: ");
+        MainMemento.main(null);
 
     }
 
