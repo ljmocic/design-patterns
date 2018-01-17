@@ -6,6 +6,7 @@ import behavioral.memento.MainMemento;
 import behavioral.observer.MainObserver;
 import behavioral.strategy.MainStrategy;
 import behavioral.templatemethod.MainTemplateMethod;
+import behavioral.visitor.MainVisitor;
 
 public class MainBehavioral {
 
@@ -31,6 +32,9 @@ public class MainBehavioral {
 
         System.out.println("\nRunning Memento example: ");
         MainMemento.main(null);
+
+        System.out.println("\nRunning Visitor example: ");
+        MainVisitor.main(null);
 
     }
 
